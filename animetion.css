@@ -1,0 +1,70 @@
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeOutSlideUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+@keyframes faderightSlideright {
+    0% {
+        opacity: 1;
+        transform: translateX(-40px);
+    }
+
+    30% {
+        opacity: 1;
+        transform: translateX(40px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(-20px);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+@keyframes company-name-animation {
+    0% {
+        opacity: 1;
+        transform: translateX(-400px);
+    }
+    25% {
+        opacity: 1;
+        transform: translateX(400px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(-200px);
+    }
+    75% {
+        opacity: 1;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

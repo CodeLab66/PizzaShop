@@ -1,0 +1,164 @@
+.landing-page {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-image: url(images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.landing-page-content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.landing-page-content .company-name {
+    margin-top: 179px;
+}
+
+.landing-page-content .company-name h1 {
+    font-size: 100px;
+    display: inline;
+    opacity: 0;
+    animation: fadeInSlideUp 1.5s 0.5s forwards;
+}
+
+.company-name:hover {
+    opacity: 0;
+    animation: company-name-animation 3s 0.5s forwards;
+}
+
+.landing-page-content .first {
+    color: red;
+    animation-delay: 0.375s;
+}
+
+.landing-page-content .second {
+    animation-delay: 0.7s;
+    color: white;
+}
+
+.landing-page-content .third {
+    color: red;
+    animation-delay: 1.125s;
+}
+
+.landing-page-content .Moto {
+    margin-top: 25px;
+}
+
+.landing-page-content .Moto span {
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.719);
+    color: black;
+    opacity: 0;
+    animation: fadeInSlideUp 1s 1.5s forwards;
+}
+
+/* .landing-page-content .Moto:hover {
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.719);
+    opacity: 0;
+    animation: fadeInSlideUp 1s 1s forwards;
+} */
+
+.deals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    column-gap: 0;
+    margin-left: 200px;
+}
+
+.exclusive {
+    font-size: 35px;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 150px;
+}
+
+
+.exclusive-card {
+    width: 300px;
+    margin-top: 330px;
+    margin-left: -170px;
+    display: flex;
+    background-color: rgba(255, 131, 0, 0.6);
+    border: 1px solid rgba(255, 131, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 40px 14px 18px rgba(0, 0, 0, 0.849);
+}
+
+.exclusive:hover {
+    color: white;
+    animation: faderightSlideright 3s ease-in-out forwards;
+}
+
+.exclusive-card:hover {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.491);
+    border: 2px solid red;
+}
+
+.card {
+    width: 220px;
+    height: auto;
+    padding: 20px;
+    margin-top: 330px;
+    background-color: rgba(255, 255, 255, 0.74);
+    border: 1px solid rgba(255, 255, 255, 0.74);
+    box-shadow: 10px 10px 15px rgba(225, 45, 45, 0.785);
+    border-radius: 10px;
+    transition: transform 0.25s linear;
+}
+
+.card:hover {
+    transform: translateY(-30px);
+    background-color: white;
+    box-shadow: 15px 15px 20px rgba(236, 1, 1, 0.9);
+
+}
+
+.card .name {
+    color: black;
+}
+
+.card .description {
+    color: rgb(64, 64, 64);
+}
+
+.card .original-price {
+    color: black;
+    font-size: 17px;
+    text-decoration: line-through;
+}
+
+.card .discounted-price {
+    color: red;
+    font-size: 19px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: darkred;
+}

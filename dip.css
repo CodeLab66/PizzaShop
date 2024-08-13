@@ -1,0 +1,58 @@
+.dip-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(260px,0fr));
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    background-color: whitesmoke;
+    border: 3px solid rgb(208,9,9);
+    border-radius: 20px;
+    box-shadow: 2.5px -5.5px 13px 8px rgba(220, 29, 29, 0.705);
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.dip-card {
+    width: 220px;
+    height: auto;
+    padding: 20px;
+    margin: 50px 20px ;
+    background-color: #ffffffbd;
+    border: 1px solid #f0eeee;
+    box-shadow: -3.5px 8px 15px 8px rgba(203, 201, 201, 0.627);
+    border-radius: 10px;
+    transition: transform 0.25s linear;
+}
+
+.dip-card:hover {
+    background-color: rgba(248, 171, 5, 0.89);
+    border: 1px solid rgba(248, 171, 5, 0.89);
+    transform: translateY(-30px);
+}
+
+.dip-card img {
+    width: 100%;
+}
+
+.dip-card .name{
+    color: black;
+    margin-bottom: 5px;
+    text-align: center;
+    min-height: 56px;
+    font-size: large;
+}
+
+.dip-card button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0 0 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: darkred;
+}
