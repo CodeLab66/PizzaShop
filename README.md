@@ -1,6 +1,6 @@
 # PizzaShop
 
-Welcome to the Peperonni Pizza Landing Page project. This is a responsive, visually engaging web page designed for a fictional pizza restaurant called "Peperonni." It features various sections that highlight exclusive deals and a diverse menu, including pizzas, pastas, appetizers, and dips.
+Welcome to the Peperonni Pizza Landing Page project. This is a navbar responsive, visually engaging web page designed for a fictional pizza restaurant called "Peperonni." It features various sections that highlight exclusive deals and a diverse menu, including pizzas, pastas, appetizers, and dips.
 
 ## Table of Contents
 
